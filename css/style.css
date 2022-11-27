@@ -1,0 +1,96 @@
+.container {
+    padding-top: 1vh;
+}
+
+/* Inicio personalización de barra */
+.bg-blue {
+    background-color: rgb(0, 200, 255);
+    height: 11vh;
+}
+.navbar-brand {
+    color: white;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Fin de personalización de barra*/
+
+/* Inicio personalización Home */
+
+.parrafo {
+    text-align: justify;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1vh;
+    border-bottom: 0.25vh solid black;
+    }
+
+.titulo {
+    text-align: justify;
+    color: rgb(9, 9, 9);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 0.5vh solid black;
+    }
+
+.imagen {
+    padding-bottom: 0.5vh;
+}
+
+.titulo-index {
+    padding-top: 10vh;
+}
+
+/* Lista del ranking de peliculas*/
+.lista-sep {
+    padding-left: 6vh;
+}
+.lista {
+    padding-left: 1%;
+    text-align: left;
+    color: blue;
+    font-weight: 300;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+/* Fin de personalización de Home*/
+
+/* Inicio personalización Salidas y escapadas*/
+
+.parrafo-salidas {
+    font-size: 3vh;
+    font-weight: 200;
+    text-align: justify;
+    border-bottom: 0.25vh solid black;
+    padding-bottom: 3vh;
+}
+
+.titulo-salidas {
+    padding-top: 10vh;
+    font-size: 4ch;
+    font-weight: 400;
+    text-align: justify;
+    border-bottom: 0.5vh solid black;
+    color: black solid;
+}
+
+.imagen-salidas {
+        padding-bottom: 2%;   
+}
+
+/* Fin personalización Salidas y escapadas */
+footer{
+    padding-left: 15px;
+    background-color: rgb(0, 200, 255);
+    color:white;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link-redes {
+    color: white;
+    text-decoration: none;
+}
