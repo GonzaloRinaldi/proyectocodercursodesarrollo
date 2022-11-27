@@ -1,11 +1,12 @@
 .container {
     padding-top: 1vh;
+    flex: content center;
 }
 
 /* Inicio personalización de barra */
 .bg-blue {
     background-color: rgb(0, 200, 255);
-    height: 11vh;
+    height: 12vh;
 }
 .navbar-brand {
     color: white;
@@ -16,7 +17,6 @@
 /* Fin de personalización de barra*/
 
 /* Inicio personalización Home */
-
 .parrafo {
     text-align: justify;
     color: black;
