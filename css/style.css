@@ -47,11 +47,11 @@
     padding-left: 6vh;
 }
 .lista {
-    padding-left: 1%;
+    padding-left: 2%;
     text-align: left;
-    color: blue;
+    color: rgb(11, 11, 11);
     font-weight: 300;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
@@ -93,4 +93,14 @@ footer{
 .link-redes {
     color: white;
     text-decoration: none;
+}
+/* Personalización página de contacto*/
+
+.titulo-contacto {
+    padding-top: 10vh;
+    font-size: 4ch;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 0.5vh solid black;
+    color: black solid;
 }
