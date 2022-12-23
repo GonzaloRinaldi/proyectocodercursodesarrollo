@@ -1,33 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./utils/variables";
+@import "./utils/mixims";
 
-$color-principal: rgb (0, 200, 255);
-$fuente-main: Verdana, Geneva, Tahoma, sans-serif;
+@import "./base/base";
 
-    main {
-        padding-top: 15vh;
-        h3 {
-            color: black;
-            font-size: x-large;
-            font-family: $fuente-main;
-        }
-        h4 {
-            color: black;
-            font-size: small;
-            text-align: justify;
-        }
-        .parrafo-salidas {
-            color: black;
-            text-align: justify;
-            font-size: medium;
-        }
-        
-    }
+@import "./components/header";
+@import "./components/footer";
+
+@import "./pages/contacto";
+@import "./pages/donde-comprar";
+@import "./pages/index";
+@import "./pages/recomendaciones";
+@import "./pages/salidas-escapadas";
 
 
-@import "./components/header"
-@import "./components/footer"
+
+    
+
 
