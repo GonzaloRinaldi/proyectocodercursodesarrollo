@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-$color-principal: rgb (0, 200, 255)
+$color-principal: rgb (0, 200, 255);
+$fuente-main: Verdana, Geneva, Tahoma, sans-serif;
 
     main {
         padding-top: 15vh;
         h3 {
             color: black;
             font-size: x-large;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: $fuente-main;
         }
         h4 {
             color: black;
@@ -25,8 +26,6 @@ $color-principal: rgb (0, 200, 255)
         }
         
     }
-
-
 
 
 @import "./components/header"
