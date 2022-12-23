@@ -5,25 +5,6 @@
 }
 
 $color-principal: rgb (0, 200, 255)
-header {
-    
-        background-color: $color-principal;
-        height: 12vh;
-        color: white;
-        font-size: xx-large;
-        font-weight: 400;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-bottom: 2%;
-        h1 {
-            font-size: large;
-            text-decoration: none;
-        }
-        ul {
-            li {
-                font-size: medium;
-            }
-        }
-    }
 
     main {
         padding-top: 15vh;
@@ -46,16 +27,8 @@ header {
     }
 
 
-footer {
-    background-color: $color-principal;
-    
-    h2 {
-        font-size: large;
-    }
 
-    a {
-        text-decoration: none;
-        color: white;
-        font-size: medium;
-    }
-}
+
+@import "./components/header"
+@import "./components/footer"
+
