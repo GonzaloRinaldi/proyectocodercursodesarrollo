@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+$color-principal: rgb (0, 200, 255)
 header {
     
-        background-color: rgb(0, 200, 255);
+        background-color: $color-principal;
         height: 12vh;
         color: white;
         font-size: xx-large;
@@ -46,7 +47,7 @@ header {
 
 
 footer {
-    background-color: rgb(0, 200, 255);
+    background-color: $color-principal;
     
     h2 {
         font-size: large;
